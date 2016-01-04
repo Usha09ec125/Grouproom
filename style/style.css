@@ -1,0 +1,69 @@
+.container{    
+    height: 100%;
+    width: 100%;    
+    display: inline-block;            
+}
+.container .leftpane{
+width: 4.3%;
+background-color: rgb(204,204,204);    
+display: flex;
+flex-direction: column;
+align-items: center;
+border-right: 1px solid #8B8686;
+float: left;
+height: 100%;
+}
+.container .leftpane-common{
+background-repeat: no-repeat;
+width: 30%;
+padding: 3px;
+cursor: pointer;
+margin-top: 15px;    
+}
+.container .leftpane .menu{
+background-image: url(Images/menu48.png);
+height: 140px;
+}
+.toolbar{
+background-color: rgb(204,204,204);
+height: 10%;   
+float:left;
+width: 95%;  
+}
+.containerArea{    
+        height: 90%  ;
+        display: flex;
+        width: 95%;         
+        float:left;  
+}
+.cell {
+width: 100%;
+}
+.cell2 {
+background-color: #f9f9f9;
+width: 100%;
+}
+  
+.closeArea{
+    writing-mode: tb-rl;
+  filter: flipv fliph;
+  -webkit-transform:rotate(-90deg);
+  width: 100%;
+      margin-top: 50%;
+  float: left;  
+}
+    .closeBtn{
+        float: right; 
+            font-size: 20px;
+    font-family: monospace;
+    cursor: pointer;
+    }
+    .openBtn{
+       background-image: url(Images/menu48.png);
+    background-repeat: no-repeat;
+    float: left;
+    margin-left : 35%;    
+    height: 24px;
+    width: 24px;
+    cursor: pointer;     
+    }

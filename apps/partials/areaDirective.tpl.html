@@ -1,0 +1,10 @@
+<div>
+    <div ng-show="space.ShowTheArea">
+        <span>Area {{space.id}}</span>
+        <span class="closeBtn" ng-click="space.ColapseTheArea(space.id,space.counter)">x</span>        
+    </div>
+    <div ng-hide="space.ShowTheArea">        
+        <span  ng-click="space.OpenTheArea(space.id,space.counter)" class="openBtn"></span>
+        <div class="closeArea">Area {{space.id}}</div>
+    </div>
+    <div>

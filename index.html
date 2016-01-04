@@ -1,0 +1,33 @@
+<html ng-app="gapp">
+
+<head>
+    <title>Group Room</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="bower_components/angular/angular.js"></script>
+</head>
+
+<body>
+    <div ng-controller="indexController as ctrl">
+        <div class="container">
+            <div class="leftpane">
+                <span class="menu leftpane-common"></span>
+            </div>
+            <div class="toolbar"></div>
+            <div class="containerArea">
+                <div class="cell">
+                    <area id="1" counter="{{ctrl.counter}}"></area>
+                </div>
+                <div class="cell2">
+                    <area id="2" counter="{{ctrl.counter}}"></area>
+                </div>
+                <div class="cell">
+                    <area id="3" counter="{{ctrl.counter}}"></area>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="apps/main.js"></script>
+    <script src="apps/Area/Area.js"></script>
+</body>
+
+</html>
